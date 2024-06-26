@@ -5,7 +5,7 @@ import UsersList from './components/UsersList';
 import { useSelector } from 'react-redux';
 import { io } from 'socket.io-client';
 
-const socket = io("https://chatapp.onrender.com");
+const socket = io("https://chat-app-yl7e.onrender.com");
 localStorage.setItem('socket', socket);
 
 function Home() {
